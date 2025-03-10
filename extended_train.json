@@ -1,6 +1,6 @@
 [
   {
-    "instruction": "I am trying to register a service worker in my PWA, but it seems like it's not registering properly. Here's my code snippet, but I can't tell if there's an issue:\n\n```javascript\nif ('serviceWorker' in navigator) {\n  navigator.serviceWorker.register('/sw.js')\n    .then(registration => {\n      console.log('Service Worker registered with scope:', registration.scope);\n    })\n    .catch(error => {\n      console.log('Service Worker registration failed:', error);\n    });\n}\n```\n\nWhy might this not be working, and what should I check or correct?",
+    "instruction": "text test I am trying to register a service worker in my PWA, but it seems like it's not registering properly. Here's my code snippet, but I can't tell if there's an issue:\n\n```javascript\nif ('serviceWorker' in navigator) {\n  navigator.serviceWorker.register('/sw.js')\n    .then(registration => {\n      console.log('Service Worker registered with scope:', registration.scope);\n    })\n    .catch(error => {\n      console.log('Service Worker registration failed:', error);\n    });\n}\n```\n\nWhy might this not be working, and what should I check or correct?",
     "files": [
       {
         "path": "public/sw.js",
